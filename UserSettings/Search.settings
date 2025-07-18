@@ -10,8 +10,8 @@ showPackageIndexes = false
 showStatusBar = false
 scopes = {
 	"OpenInspectorPreview.66F56946" = "0"
-	"currentGroup.66F56946" = "menu"
-	"last_search.66F56946" = "Missin"
+	"currentGroup.66F56946" = "all"
+	"last_search.66F56946" = ""
 }
 providers = {
 	asset = {
@@ -68,6 +68,7 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	""
 ]
 searchItemFavorites = [
 ]
