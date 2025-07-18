@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float speed = 5.0f;
-    public float turnSpeed = 15f;
-    public float horizontalInput;
-    public float verticalInput;
+    [SerializeField] private float speed = 5.0f;
+    [SerializeField] private float turnSpeed = 15f;
+    private float horizontalInput;
+    private float verticalInput;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
